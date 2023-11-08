@@ -12,10 +12,9 @@ while True:
         guesses=0
 
         rep=str(input("\nDo you want to play again?(y/..): ")).lower()
-        print(" ")
 
         if rep=="y":
-            pass
+            print(" ")
         else:
             break
             
