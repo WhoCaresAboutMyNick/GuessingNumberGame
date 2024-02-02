@@ -19,7 +19,10 @@ while True:
             break
             
     elif q1>10:
-        print("\nYou can choose only numbers ranging from 1 to 10.\n")        
+        print("\nYou can choose only numbers ranging from 1 to 10.\n")
+
+    elif q1<10:
+        print("\nYou can choose only numbers ranging from 1 to 10.\n")
 
     else:
         guesses+=1
